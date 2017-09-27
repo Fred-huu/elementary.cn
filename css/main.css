@@ -1,0 +1,15 @@
+*{
+    font-family: "Microsoft YaHei UI";
+}
+.whole{
+    margin: 1rem auto;
+}
+#logotype{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.whole>h4{
+    text-align: center;
+    font-family: "Microsoft YaHei UI Light";
+}
