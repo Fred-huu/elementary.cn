@@ -5,11 +5,34 @@
     margin: 1rem auto;
 }
 #logotype{
-    width: 50%;
+    width: 30%;
     height: auto;
     margin: auto;
 }
 .whole>h4{
     text-align: center;
-    font-family: "Microsoft YaHei UI Light";
+    font-weight: 300;
+}
+.section__showcase{
+    background-image: url("../img/notebook-small.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+@media all and (min-width: 500px) {
+    .section__showcase{
+        background-image: url("../img/notebook-medium.jpg");
+    }
+}
+@media all and (min-width: 1000px){
+    .section__showcase{
+        background-image: url("../img/notebook-large.jpg");
+    }
+}
+@media all and (min-width: 1300px) {
+    .section__showcase{
+        background-image:url("../img/notebook.jpg");
+    }
 }
